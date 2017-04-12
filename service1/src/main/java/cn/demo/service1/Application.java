@@ -8,10 +8,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /**
- * @Author: Leo
- * @Blog: http://blog.csdn.net/lc0817
- * @CreateTime: 2016/11/21 23:01
- * @Description:
+ * @Author: Cason
  */
 @SpringBootApplication(scanBasePackages = "cn.demo.service1")
 @EnableFeignClients

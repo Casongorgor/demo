@@ -5,10 +5,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Author: Leo
- * @Blog: http://blog.csdn.net/lc0817
- * @CreateTime: 2017/1/19 12:13
- * @Description:
+ * @Author: Cason
+ *
  */
 @RestController
 public class Service0Controller {
