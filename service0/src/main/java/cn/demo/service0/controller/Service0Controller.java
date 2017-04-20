@@ -1,5 +1,6 @@
 package cn.demo.service0.controller;
 
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.TimeUnit;
@@ -15,6 +16,7 @@ public class Service0Controller {
      */
     int count = 0;
 
+    @ApiOperation(value="设置超时", notes="sleepSec就是睡眠时间")
     @GetMapping("user/{userId}/{sleepSec}")
     String test(
             @PathVariable String userId,

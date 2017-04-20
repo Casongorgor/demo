@@ -8,5 +8,6 @@ eureka:
   instance:
     hostname: localhost
     instance-id: http://localhost:8081
+    status-page-url: http://localhost:${server.port}/swagger-ui.html # ${server.port}为该服务的端口号
 server:
   port: 8081
